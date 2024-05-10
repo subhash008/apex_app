@@ -1,0 +1,499 @@
+---
+# ====== Page: css demo2 =====================================
+id: 3
+identification: 
+  name: css demo2
+  alias: CSS-DEMO2
+  title: css demo2
+
+appearance: 
+  page-mode: Normal
+  page-template: Theme Default
+  template-options: 
+  - '#DEFAULT#'
+
+navigation-menu: 
+  override-user-interface-level: false
+
+navigation: 
+  cursor-focus: Do not focus cursor
+  warn-on-unsaved-changes: true
+
+css: 
+  file-urls: 
+  - '#APP_FILES#pro#MIN#.css'
+  inline: |
+    .su-region {
+      background-color: rgb(197, 209, 88); /* Light green background */
+      border-radius: 10px;
+      box-shadow: inset 0px 0px 30px #d7b7d7;
+      padding: 15px;
+    }
+    
+    .su-region-title {
+      margin-top: 0;
+      padding: 10px 15px;
+      background: rgb(214, 184, 107);
+      border-bottom: 1px solid #ddd;
+      color: blue;
+    }
+    
+    .su-region-content {
+      padding: 10px 15px; /* Add space below the title */
+      color: red;
+    }
+    
+    
+    
+    
+    
+    figure {
+      display: grid;
+      border-radius: 1rem;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    figure > * {
+      grid-area: 1/1;
+      transition: .4s;
+    }
+    figure figcaption {
+      display: grid;
+      align-items: end;
+      font-family: sans-serif;
+      font-size: 2.3rem;
+      font-weight: bold;
+      color: #0000;
+      padding: .75rem;
+      background: var(--c,#0009);
+      clip-path: inset(0 var(--_i,100%) 0 0);
+      -webkit-mask:
+        linear-gradient(#000 0 0),
+        linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      -webkit-mask-clip: text, padding-box;
+      margin: -1px;
+    }
+    figure:hover figcaption{
+      --_i: 0%;
+    }
+    figure:hover img {
+      transform: scale(1.2);
+    }
+    @supports not (-webkit-mask-clip: text) {
+      figure figcaption {
+       -webkit-mask: none;
+       color: #fff;
+      }
+    }
+    
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      grid-auto-flow: column;
+      place-content: center;
+      background: #425a52;
+    }
+
+security: 
+  authentication: Page Requires Authentication
+  deep-linking: Application Default
+  page-access-protection: Arguments Must Have Checksum
+  form-auto-complete: Off
+  browser-cache: Application Default
+
+session-management: 
+  rejoin-sessions: Application Default
+
+advanced: 
+  enable-duplicate-page-submissions: Yes - Enable page to be re-posted
+  reload-on-submit: Only for Success
+
+server-cache: 
+  caching: Disabled
+
+regions: 
+- # ====== Region: Breadcrumb ==================================
+  id: 103120846276792231639
+  identification: 
+    title: Breadcrumb
+    type: Breadcrumb
+
+  source: 
+    breadcrumb: Breadcrumb # 103093092373532281012
+
+  layout: 
+    sequence: 10
+    parent-region: No Parent
+    position: REGION_POSITION_01
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Title Bar # 103093208048581281063
+    template-options: 
+    - '#DEFAULT#'
+    - t-BreadcrumbRegion--useBreadcrumbTitle
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  server-cache: 
+    caching: Disabled
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    appearance: 
+      breadcrumb-template: Breadcrumb # 103093270459897281092
+      template-options: 
+      - '#DEFAULT#'
+
+- # ====== Region: New =========================================
+  id: 103121008951246233001
+  identification: 
+    title: New
+    type: Static Content
+
+  source: 
+    html-code: |
+      <div class="su-region"> 
+      
+          <div class="su-region-title"> Title of My Region </div>
+          <div class="su-region-content">
+      
+              this is content of my region
+          </div>
+      
+      </div>
+
+  layout: 
+    sequence: 20
+    parent-region: No Parent
+    position: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Standard # 103093195623968281058
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  server-cache: 
+    caching: Disabled
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: New =========================================
+  id: 103121009066584233002
+  identification: 
+    title: New
+    type: Static Content
+
+  source: 
+    html-code: |
+      <div class="flex justify-between mb-1">
+        <span class="text-base font-medium text-blue-700 dark:text-white">Subhash</span>
+        <span class="text-sm font-medium text-blue-700 dark:text-white">60%</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+      </div>
+      
+
+  layout: 
+    sequence: 30
+    parent-region: No Parent
+    position: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Standard # 103093195623968281058
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  server-cache: 
+    caching: Disabled
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: New =========================================
+  id: 103121009133454233003
+  identification: 
+    title: New
+    type: Static Content
+
+  source: 
+    html-code: |
+      
+      
+      
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+          </div>
+          <div>
+              <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+          </div>
+      </div>
+      
+
+  layout: 
+    sequence: 40
+    parent-region: No Parent
+    position: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: 6
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Standard # 103093195623968281058
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--removeHeader js-removeLandmark
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  server-cache: 
+    caching: Disabled
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+
+- # ====== Region: New =========================================
+  id: 103121009282794233004
+  identification: 
+    title: New
+    type: Static Content
+
+  source: 
+    html-code: |
+      <html lang="en"><head>
+        <meta charset="UTF-8">
+        
+      
+          <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+      
+          <meta name="apple-mobile-web-app-title" content="CodePen">
+      
+          <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+      
+          <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+      
+      
+      
+        
+        
+      
+        <title>CodePen - Card hover effect</title>
+      
+          <link rel="canonical" href="https://codepen.io/t_afif/pen/PoBQRmj">
+        
+        
+        
+        
+      <style>
+      figure {
+        display: grid;
+        border-radius: 1rem;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      figure > * {
+        grid-area: 1/1;
+        transition: .4s;
+      }
+      figure figcaption {
+        display: grid;
+        align-items: end;
+        font-family: sans-serif;
+        font-size: 2.3rem;
+        font-weight: bold;
+        color: #0000;
+        padding: .75rem;
+        background: var(--c,#0009);
+        clip-path: inset(0 var(--_i,100%) 0 0);
+        -webkit-mask:
+          linear-gradient(#000 0 0),
+          linear-gradient(#000 0 0);
+        -webkit-mask-composite: xor;
+        -webkit-mask-clip: text, padding-box;
+        margin: -1px;
+      }
+      figure:hover figcaption{
+        --_i: 0%;
+      }
+      figure:hover img {
+        transform: scale(1.2);
+      }
+      @supports not (-webkit-mask-clip: text) {
+        figure figcaption {
+         -webkit-mask: none;
+         color: #fff;
+        }
+      }
+      
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-auto-flow: column;
+        place-content: center;
+        background: #425a52;
+      }
+      </style>
+      
+        
+        
+        
+      </head>
+      
+      <body translate="no">
+        <figure>
+          <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+          <figcaption>The Day</figcaption>
+      </figure>
+      <figure style="--c:#fff5">
+          <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+          <figcaption>The Night</figcaption>
+      </figure>
+        
+        
+        
+        <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+      
+      
+      
+      </body></html>
+
+  layout: 
+    sequence: 10
+    parent-region: No Parent
+    position: BODY
+    start-new-layout: false
+    start-new-row: true
+    column: Automatic
+    new-column: true
+    column-span: Automatic
+
+  appearance: 
+    template: Standard # 103093195623968281058
+    template-options: 
+    - '#DEFAULT#'
+    - t-Region--scrollBody
+    render-components: Above Content
+
+  accessibility: 
+    use-landmark: true
+    landmark-type: Template Default
+
+  advanced: 
+    region-display-selector: false
+    exclude-title-from-translation: false
+
+  server-cache: 
+    caching: Disabled
+
+  customization: 
+    customizable: Not Customizable By End Users
+
+  attributes: 
+    settings: 
+      output-as: HTML
+      expand-shortcuts: false
+

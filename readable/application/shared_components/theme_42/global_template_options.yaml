@@ -1,0 +1,1463 @@
+---
+- # ====== Global Template Option: H1 ==========================
+  id: 103093359214226281196
+  identification: 
+    template-type: Region
+    name: H1
+    identifier: HEADING_LEVEL_H1
+    group: Heading Level # 103093359049578281196
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-1
+
+  help: 
+    help-text: H1
+
+- # ====== Global Template Option: H2 ==========================
+  id: 103093359463138281196
+  identification: 
+    template-type: Region
+    name: H2
+    identifier: HEADING_LEVEL_H2
+    group: Heading Level # 103093359049578281196
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-2
+
+  help: 
+    help-text: H2
+
+- # ====== Global Template Option: H3 ==========================
+  id: 103093359633767281196
+  identification: 
+    template-type: Region
+    name: H3
+    identifier: HEADING_LEVEL_H3
+    group: Heading Level # 103093359049578281196
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-3
+
+  help: 
+    help-text: H3
+
+- # ====== Global Template Option: H4 ==========================
+  id: 103093359851036281196
+  identification: 
+    template-type: Region
+    name: H4
+    identifier: H4
+    group: Heading Level # 103093359049578281196
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-4
+
+  help: 
+    help-text: H4
+
+- # ====== Global Template Option: H5 ==========================
+  id: 103093360093041281196
+  identification: 
+    template-type: Region
+    name: H5
+    identifier: HEADING_LEVEL_H5
+    group: Heading Level # 103093359049578281196
+    sequence: 50
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-5
+
+  help: 
+    help-text: H5
+
+- # ====== Global Template Option: H6 ==========================
+  id: 103093360238420281196
+  identification: 
+    template-type: Region
+    name: H6
+    identifier: HEADING_LEVEL_H6
+    group: Heading Level # 103093359049578281196
+    sequence: 60
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - js-headingLevel-6
+
+  help: 
+    help-text: H6
+
+- # ====== Global Template Option: Large =======================
+  id: 103093360600342281196
+  identification: 
+    template-type: Item
+    name: Large
+    identifier: FBM_LARGE
+    group: Bottom Margin # 103093360453141281196
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-lg
+
+  help: 
+    help-text: Adds a large bottom margin for this field.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093361057495281197
+  identification: 
+    template-type: Region
+    name: Large
+    identifier: RBM_LARGE
+    group: Bottom Margin # 103093360809848281197
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-lg
+
+  help: 
+    help-text: Adds a large bottom margin to the region.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093361220413281197
+  identification: 
+    template-type: Item
+    name: Medium
+    identifier: FBM_MEDIUM
+    group: Bottom Margin # 103093360453141281196
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-md
+
+  help: 
+    help-text: Adds a medium bottom margin for this field.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093361427614281197
+  identification: 
+    template-type: Region
+    name: Medium
+    identifier: RBM_MEDIUM
+    group: Bottom Margin # 103093360809848281197
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-md
+
+  help: 
+    help-text: Adds a medium bottom margin to the region.
+
+- # ====== Global Template Option: None ========================
+  id: 103093361619161281197
+  identification: 
+    template-type: Item
+    name: None
+    identifier: FBM_NONE
+    group: Bottom Margin # 103093360453141281196
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-none
+
+  help: 
+    help-text: Removes the bottom margin for this field.
+
+- # ====== Global Template Option: None ========================
+  id: 103093361888204281197
+  identification: 
+    template-type: Region
+    name: None
+    identifier: RBM_NONE
+    group: Bottom Margin # 103093360809848281197
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-none
+
+  help: 
+    help-text: Removes the bottom margin for this region.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093362000206281197
+  identification: 
+    template-type: Item
+    name: Small
+    identifier: FBM_SMALL
+    group: Bottom Margin # 103093360453141281196
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-sm
+
+  help: 
+    help-text: Adds a small bottom margin for this field.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093362204099281197
+  identification: 
+    template-type: Region
+    name: Small
+    identifier: RBM_SMALL
+    group: Bottom Margin # 103093360809848281197
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-bottom-sm
+
+  help: 
+    help-text: Adds a small bottom margin to the region.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093362655285281198
+  identification: 
+    template-type: Item
+    name: Large
+    identifier: FLM_LARGE
+    group: Left Margin # 103093362486185281197
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-lg
+
+  help: 
+    help-text: Adds a large left margin for this field.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093363014713281198
+  identification: 
+    template-type: Region
+    name: Large
+    identifier: RLM_LARGE
+    group: Left Margin # 103093362866763281198
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-lg
+
+  help: 
+    help-text: Adds a large right margin to the region.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093363288699281198
+  identification: 
+    template-type: Item
+    name: Medium
+    identifier: FLM_MEDIUM
+    group: Left Margin # 103093362486185281197
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-md
+
+  help: 
+    help-text: Adds a medium left margin for this field.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093363497629281198
+  identification: 
+    template-type: Region
+    name: Medium
+    identifier: RLM_MEDIUM
+    group: Left Margin # 103093362866763281198
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-md
+
+  help: 
+    help-text: Adds a medium right margin to the region.
+
+- # ====== Global Template Option: None ========================
+  id: 103093363659223281198
+  identification: 
+    template-type: Item
+    name: None
+    identifier: FLM_NONE
+    group: Left Margin # 103093362486185281197
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-none
+
+  help: 
+    help-text: Removes the left margin for this field.
+
+- # ====== Global Template Option: None ========================
+  id: 103093363876828281198
+  identification: 
+    template-type: Region
+    name: None
+    identifier: RLM_NONE
+    group: Left Margin # 103093362866763281198
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-none
+
+  help: 
+    help-text: Removes the left margin from the region.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093364043169281198
+  identification: 
+    template-type: Item
+    name: Small
+    identifier: FLM_SMALL
+    group: Left Margin # 103093362486185281197
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-sm
+
+  help: 
+    help-text: Adds a small left margin for this field.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093364223349281198
+  identification: 
+    template-type: Region
+    name: Small
+    identifier: RLM_SMALL
+    group: Left Margin # 103093362866763281198
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-left-sm
+
+  help: 
+    help-text: Adds a small left margin to the region.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093364686843281198
+  identification: 
+    template-type: Item
+    name: Large
+    identifier: FRM_LARGE
+    group: Right Margin # 103093364437745281198
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-lg
+
+  help: 
+    help-text: Adds a large right margin for this field.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093365022592281199
+  identification: 
+    template-type: Region
+    name: Large
+    identifier: RRM_LARGE
+    group: Right Margin # 103093364807793281198
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-lg
+
+  help: 
+    help-text: Adds a large right margin to the region.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093365225768281199
+  identification: 
+    template-type: Item
+    name: Medium
+    identifier: FRM_MEDIUM
+    group: Right Margin # 103093364437745281198
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-md
+
+  help: 
+    help-text: Adds a medium right margin for this field.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093365453752281199
+  identification: 
+    template-type: Region
+    name: Medium
+    identifier: RRM_MEDIUM
+    group: Right Margin # 103093364807793281198
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-md
+
+  help: 
+    help-text: Adds a medium right margin to the region.
+
+- # ====== Global Template Option: None ========================
+  id: 103093365610710281199
+  identification: 
+    template-type: Item
+    name: None
+    identifier: FRM_NONE
+    group: Right Margin # 103093364437745281198
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-none
+
+  help: 
+    help-text: Removes the right margin for this field.
+
+- # ====== Global Template Option: None ========================
+  id: 103093365851789281199
+  identification: 
+    template-type: Region
+    name: None
+    identifier: RRM_NONE
+    group: Right Margin # 103093364807793281198
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-none
+
+  help: 
+    help-text: Removes the right margin from the region.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093366074058281199
+  identification: 
+    template-type: Item
+    name: Small
+    identifier: FRM_SMALL
+    group: Right Margin # 103093364437745281198
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-sm
+
+  help: 
+    help-text: Adds a small right margin for this field.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093366200427281199
+  identification: 
+    template-type: Region
+    name: Small
+    identifier: RRM_SMALL
+    group: Right Margin # 103093364807793281198
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-right-sm
+
+  help: 
+    help-text: Adds a small right margin to the region.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093366644913281199
+  identification: 
+    template-type: Item
+    name: Large
+    identifier: FTM_LARGE
+    group: Top Margin # 103093366441922281199
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-lg
+
+  help: 
+    help-text: Adds a large top margin for this field.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093367014670281200
+  identification: 
+    template-type: Region
+    name: Large
+    identifier: RTM_LARGE
+    group: Top Margin # 103093366850710281199
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-lg
+
+  help: 
+    help-text: Adds a large top margin to the region.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093367263361281200
+  identification: 
+    template-type: Item
+    name: Medium
+    identifier: FTM_MEDIUM
+    group: Top Margin # 103093366441922281199
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-md
+
+  help: 
+    help-text: Adds a medium top margin for this field.
+
+- # ====== Global Template Option: Medium ======================
+  id: 103093367437192281200
+  identification: 
+    template-type: Region
+    name: Medium
+    identifier: RTM_MEDIUM
+    group: Top Margin # 103093366850710281199
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-md
+
+  help: 
+    help-text: Adds a medium top margin to the region.
+
+- # ====== Global Template Option: None ========================
+  id: 103093367647047281200
+  identification: 
+    template-type: Item
+    name: None
+    identifier: FTM_NONE
+    group: Top Margin # 103093366441922281199
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-none
+
+  help: 
+    help-text: Removes the top margin for this field.
+
+- # ====== Global Template Option: None ========================
+  id: 103093367898651281200
+  identification: 
+    template-type: Region
+    name: None
+    identifier: RTM_NONE
+    group: Top Margin # 103093366850710281199
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-none
+
+  help: 
+    help-text: Removes the top margin for this region.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093368074110281200
+  identification: 
+    template-type: Item
+    name: Small
+    identifier: FTM_SMALL
+    group: Top Margin # 103093366441922281199
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-sm
+
+  help: 
+    help-text: Adds a small top margin for this field.
+
+- # ====== Global Template Option: Small =======================
+  id: 103093368288959281200
+  identification: 
+    template-type: Region
+    name: Small
+    identifier: RTM_SMALL
+    group: Top Margin # 103093366850710281199
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - margin-top-sm
+
+  help: 
+    help-text: Adds a small top margin to the region.
+
+- # ====== Global Template Option: Danger ======================
+  id: 103093368610568281200
+  identification: 
+    template-type: Button
+    name: Danger
+    identifier: DANGER
+    group: Type # 103093368424245281200
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--danger
+
+- # ====== Global Template Option: Large =======================
+  id: 103093369071638281201
+  identification: 
+    template-type: Button
+    name: Large
+    identifier: LARGEBOTTOMMARGIN
+    group: Spacing Bottom # 103093368827053281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--gapBottom
+
+- # ====== Global Template Option: Large =======================
+  id: 103093369471384281201
+  identification: 
+    template-type: Button
+    name: Large
+    identifier: LARGELEFTMARGIN
+    group: Spacing Left # 103093369218256281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--gapLeft
+
+- # ====== Global Template Option: Large =======================
+  id: 103093369817292281201
+  identification: 
+    template-type: Button
+    name: Large
+    identifier: LARGERIGHTMARGIN
+    group: Spacing Right # 103093369688199281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--gapRight
+
+- # ====== Global Template Option: Large =======================
+  id: 103093370222236281201
+  identification: 
+    template-type: Button
+    name: Large
+    identifier: LARGETOPMARGIN
+    group: Spacing Top # 103093370031336281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--gapTop
+
+- # ====== Global Template Option: Large =======================
+  id: 103093370639532281201
+  identification: 
+    template-type: Button
+    name: Large
+    identifier: LARGE
+    group: Size # 103093370443414281201
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--large
+
+  help: 
+    help-text: A large button.
+
+- # ====== Global Template Option: Display as Link =============
+  id: 103093371089878281201
+  identification: 
+    template-type: Button
+    name: Display as Link
+    identifier: DISPLAY_AS_LINK
+    group: Style # 103093370857519281201
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--link
+
+  help: 
+    help-text: This option makes the button appear as a text link.
+
+- # ====== Global Template Option: Remove UI Decoration ========
+  id: 103093371241972281201
+  identification: 
+    template-type: Button
+    name: Remove UI Decoration
+    identifier: NOUI
+    group: Style # 103093370857519281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--noUI
+
+- # ====== Global Template Option: Small =======================
+  id: 103093371405643281202
+  identification: 
+    template-type: Button
+    name: Small
+    identifier: SMALLBOTTOMMARGIN
+    group: Spacing Bottom # 103093368827053281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--padBottom
+
+- # ====== Global Template Option: Small =======================
+  id: 103093371636587281202
+  identification: 
+    template-type: Button
+    name: Small
+    identifier: SMALLLEFTMARGIN
+    group: Spacing Left # 103093369218256281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--padLeft
+
+- # ====== Global Template Option: Small =======================
+  id: 103093371884435281202
+  identification: 
+    template-type: Button
+    name: Small
+    identifier: SMALLRIGHTMARGIN
+    group: Spacing Right # 103093369688199281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--padRight
+
+- # ====== Global Template Option: Small =======================
+  id: 103093372025357281202
+  identification: 
+    template-type: Button
+    name: Small
+    identifier: SMALLTOPMARGIN
+    group: Spacing Top # 103093370031336281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--padTop
+
+- # ====== Global Template Option: Inner Button ================
+  id: 103093372488827281202
+  identification: 
+    template-type: Button
+    name: Inner Button
+    identifier: PILL
+    group: Button Set # 103093372250151281202
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--pill
+
+- # ====== Global Template Option: Last Button =================
+  id: 103093372617451281202
+  identification: 
+    template-type: Button
+    name: Last Button
+    identifier: PILLEND
+    group: Button Set # 103093372250151281202
+    sequence: 30
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--pillEnd
+
+- # ====== Global Template Option: First Button ================
+  id: 103093372824020281202
+  identification: 
+    template-type: Button
+    name: First Button
+    identifier: PILLSTART
+    group: Button Set # 103093372250151281202
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--pillStart
+
+  help: 
+    help-text: Use this for the start of a pill button.
+
+- # ====== Global Template Option: Primary =====================
+  id: 103093373019420281202
+  identification: 
+    template-type: Button
+    name: Primary
+    identifier: PRIMARY
+    group: Type # 103093368424245281200
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--primary
+
+- # ====== Global Template Option: Simple ======================
+  id: 103093373262965281202
+  identification: 
+    template-type: Button
+    name: Simple
+    identifier: SIMPLE
+    group: Style # 103093370857519281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--simple
+
+- # ====== Global Template Option: Small =======================
+  id: 103093373484885281202
+  identification: 
+    template-type: Button
+    name: Small
+    identifier: SMALL
+    group: Size # 103093370443414281201
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--small
+
+  help: 
+    help-text: A small button.
+
+- # ====== Global Template Option: Stretch =====================
+  id: 103093373832410281203
+  identification: 
+    template-type: Button
+    name: Stretch
+    identifier: STRETCH
+    group: Width # 103093373612967281202
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--stretch
+
+  help: 
+    help-text: Stretches button to fill container
+
+- # ====== Global Template Option: Success =====================
+  id: 103093374015980281203
+  identification: 
+    template-type: Button
+    name: Success
+    identifier: SUCCESS
+    group: Type # 103093368424245281200
+    sequence: 40
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--success
+
+- # ====== Global Template Option: Tiny ========================
+  id: 103093374264935281203
+  identification: 
+    template-type: Button
+    name: Tiny
+    identifier: TINY
+    group: Size # 103093370443414281201
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--tiny
+
+  help: 
+    help-text: A very small button.
+
+- # ====== Global Template Option: Warning =====================
+  id: 103093374453047281203
+  identification: 
+    template-type: Button
+    name: Warning
+    identifier: WARNING
+    group: Type # 103093368424245281200
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Button--warning
+
+- # ====== Global Template Option: Deferred Page Rendering =====
+  id: 103093374695838281203
+  identification: 
+    template-type: Page
+    name: Deferred Page Rendering
+    identifier: DEFERRED_PAGE_RENDERING
+    sequence: 1
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-DeferredRendering
+
+  help: 
+    help-text: Defer page rendering until all page components have finished loading.
+
+- # ====== Global Template Option: Show Form Labels Above ======
+  id: 103093375015031281203
+  identification: 
+    template-type: Region
+    name: Show Form Labels Above
+    identifier: SHOWFORMLABELSABOVE
+    group: Label Position # 103093374856423281203
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--labelsAbove
+
+  help: 
+    help-text: Show form labels above input fields.
+
+- # ====== Global Template Option: Large =======================
+  id: 103093375413743281203
+  identification: 
+    template-type: Region
+    name: Large
+    identifier: FORMSIZELARGE
+    group: Item Size # 103093375244214281203
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--large
+
+- # ====== Global Template Option: Left ========================
+  id: 103093375817159281204
+  identification: 
+    template-type: Region
+    name: Left
+    identifier: FORMLEFTLABELS
+    group: Label Alignment # 103093375612589281204
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--leftLabels
+
+  help: 
+    help-text: Align form labels to left.
+
+- # ====== Global Template Option: None ========================
+  id: 103093376277646281204
+  identification: 
+    template-type: Region
+    name: None
+    identifier: FORMREMOVEPADDING
+    group: Item Spacing # 103093376022960281204
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--noPadding
+
+  help: 
+    help-text: Removes spacing between items.
+
+- # ====== Global Template Option: Slim ========================
+  id: 103093376483238281204
+  identification: 
+    template-type: Region
+    name: Slim
+    identifier: FORMSLIMPADDING
+    group: Item Spacing # 103093376022960281204
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--slimPadding
+
+  help: 
+    help-text: Reduces form item spacing.
+
+- # ====== Global Template Option: Standard ====================
+  id: 103093376681189281204
+  identification: 
+    template-type: Region
+    name: Standard
+    identifier: FORMSTANDARDPADDING
+    group: Item Spacing # 103093376022960281204
+    sequence: 5
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--standardPadding
+
+  help: 
+    help-text: Uses the standard spacing between items.
+
+- # ====== Global Template Option: Stretch Form Fields =========
+  id: 103093377040403281204
+  identification: 
+    template-type: Region
+    name: Stretch Form Fields
+    identifier: STRETCH_FORM_FIELDS
+    group: Item Width # 103093376800837281204
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--stretchInputs
+
+- # ====== Global Template Option: X Large =====================
+  id: 103093377285078281204
+  identification: 
+    template-type: Region
+    name: X Large
+    identifier: FORMSIZEXLARGE
+    group: Item Size # 103093375244214281203
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form--xlarge
+
+- # ====== Global Template Option: Bold ========================
+  id: 103093377674684281204
+  identification: 
+    template-type: Item
+    name: Bold
+    identifier: DISPLAY_TEXT_STYLE_BOLD
+    group: Display Text Style # 103093377414834281204
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--boldDisplay
+
+- # ====== Global Template Option: Large =======================
+  id: 103093378041423281204
+  identification: 
+    template-type: Item
+    name: Large
+    identifier: LARGE_FIELD
+    group: Size # 103093377892877281204
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--large
+
+- # ====== Global Template Option: Normal ======================
+  id: 103093378276041281205
+  identification: 
+    template-type: Item
+    name: Normal
+    identifier: DISPLAY_TEXT_STYLE_NORMAL
+    group: Display Text Style # 103093377414834281204
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--normalDisplay
+
+- # ====== Global Template Option: Display as Block ============
+  id: 103093378653787281205
+  identification: 
+    template-type: Item
+    name: Display as Block
+    identifier: POST_TEXT_BLOCK
+    group: Item Post Text # 103093378423297281205
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--postTextBlock
+
+  help: 
+    help-text: Displays the Item Post Text in a block style immediately after the item.
+
+- # ====== Global Template Option: Display as Block ============
+  id: 103093379066321281205
+  identification: 
+    template-type: Item
+    name: Display as Block
+    identifier: PRE_TEXT_BLOCK
+    group: Item Pre Text # 103093378898042281205
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--preTextBlock
+
+  help: 
+    help-text: Displays the Item Pre Text in a block style immediately before the item.
+
+- # ====== Global Template Option: Display as Pill Button ======
+  id: 103093379469411281205
+  identification: 
+    template-type: Item
+    name: Display as Pill Button
+    identifier: DISPLAY_AS_PILL_BUTTON
+    group: Item Group Display # 103093379287786281205
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--radioButtonGroup
+
+  help: 
+    help-text: Displays the radio buttons to look like a button set / pill button.  Note that the the radio buttons must all be in the same row for this option to work.
+
+- # ====== Global Template Option: Stretch Form Item ===========
+  id: 103093379620552281205
+  identification: 
+    template-type: Item
+    name: Stretch Form Item
+    identifier: STRETCH_FORM_ITEM
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--stretchInputs
+
+  help: 
+    help-text: Stretches the form item to fill its container.
+
+- # ====== Global Template Option: X Large =====================
+  id: 103093379814458281205
+  identification: 
+    template-type: Item
+    name: X Large
+    identifier: X_LARGE_SIZE
+    group: Size # 103093377892877281204
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Form-fieldContainer--xlarge
+
+- # ====== Global Template Option: Remove Padding ==============
+  id: 103093380280075281206
+  identification: 
+    template-type: Page
+    name: Remove Padding
+    identifier: REMOVE_PADDING
+    group: Content Padding # 103093380037165281206
+    sequence: 1
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-PageBody--noContentPadding
+
+  help: 
+    help-text: Removes padding from the content region.
+
+- # ====== Global Template Option: Center ======================
+  id: 103093380646628281206
+  identification: 
+    template-type: Region
+    name: Center
+    identifier: SORT_CENTER
+    group: Sort Order Alignment # 103093380430466281206
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Region-orderBy--center
+
+- # ====== Global Template Option: End =========================
+  id: 103093380814514281206
+  identification: 
+    template-type: Region
+    name: End
+    identifier: SORT_END
+    group: Sort Order Alignment # 103093380430466281206
+    sequence: 20
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Region-orderBy--end
+
+- # ====== Global Template Option: Hide when all rows displayed 
+  id: 103093381238340281206
+  identification: 
+    template-type: Report
+    name: Hide when all rows displayed
+    identifier: HIDE_WHEN_ALL_ROWS_DISPLAYED
+    group: Pagination Display # 103093381081519281206
+    sequence: 10
+
+  settings: 
+    advanced: false
+
+  appearance: 
+    css-classes: 
+    - t-Report--hideNoPagination
+
+  help: 
+    help-text: This option will hide the pagination when all rows are displayed.
+

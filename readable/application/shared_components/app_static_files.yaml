@@ -1,0 +1,100 @@
+---
+- # ====== Static Application File: icons/app-icon-32.png ======
+  id: 103093382752351281210
+  identification: 
+    file-name: icons/app-icon-32.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-144-rounded.p
+  id: 103093383048377281210
+  identification: 
+    file-name: icons/app-icon-144-rounded.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-192.png =====
+  id: 103093383349114281211
+  identification: 
+    file-name: icons/app-icon-192.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-256-rounded.p
+  id: 103093383657100281211
+  identification: 
+    file-name: icons/app-icon-256-rounded.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-512.png =====
+  id: 103093383904164281211
+  identification: 
+    file-name: icons/app-icon-512.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: page2.css ==================
+  id: 103100267983207901322
+  identification: 
+    file-name: page2.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: page2.min.css ==============
+  id: 103103990724266534975
+  identification: 
+    file-name: page2.min.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: pro.css ====================
+  id: 103127698997494337519
+  identification: 
+    file-name: pro.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: pro.min.css ================
+  id: 103129890914874364953
+  identification: 
+    file-name: pro.min.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: progress_bar.min.css =======
+  id: 103254505113000359185
+  identification: 
+    file-name: progress_bar.min.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: progress_bar.css ===========
+  id: 103254678276209865848
+  identification: 
+    file-name: progress_bar.css
+
+  attributes: 
+    mime-type: text/css
+    file-character-set: Unicode UTF-8
+
