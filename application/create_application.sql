@@ -45,8 +45,8 @@ wwv_imp_workspace.create_flow(
 ,p_auto_time_zone=>'N'
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Demo CSS HTML'
-,p_last_updated_by=>'SUBHASHMUKTSAR@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20240510033959'
+,p_last_updated_by=>'DEV2'
+,p_last_upd_yyyymmddhh24miss=>'20240510040501'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>26
 ,p_print_server_type=>'INSTANCE'
